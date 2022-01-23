@@ -25,7 +25,9 @@ dict_a = {
     'B': 2,
     'C': 3,
     'D': 4,
+    #Reusing names will replace the old key's value with the new key's value
     "A": 5
 }
 for key, value in dict_a.items():
     print(f"{key},{value}")
+
